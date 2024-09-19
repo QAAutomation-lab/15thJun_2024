@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="basicTestng.ActitimeLoginValidation"/>
+      <class name="basicTestng.OrangeHRM_PIM"/>
+      <class name="basicTestng.Example2"/>
+      <class name="basicTestng.Example1"/>
+      <class name="basicTestng.OrangeHRM_PIM2"/>
+      <class name="basicTestng.Assignments"/>
+      <class name="basicTestng.AnnotationsExample2"/>
+      <class name="basicTestng.AnnotationsExample"/>
+      <class name="basicTestng.OrangeHRM_PIM3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
