@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicTestng.ActitimeLoginValidation">
+      <class name="ddtexamples.Example1">
         <methods>
-          <include name="testLoginPageValidationWithAssert"/>
-          <include name="testLoginPageValidationWithAssert2"/>
+          <include name="testCellWithDiffValues"/>
         </methods>
-      </class> <!-- basicTestng.ActitimeLoginValidation -->
+      </class> <!-- ddtexamples.Example1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
