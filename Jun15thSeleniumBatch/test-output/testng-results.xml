@@ -1,25 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-20T21:16:22 IST" name="Default suite" finished-at="2024-09-20T21:16:39 IST" duration-ms="17704">
+  <suite started-at="2024-09-23T20:59:56 IST" name="Parallel test suite" finished-at="2024-09-23T21:00:12 IST" duration-ms="16551">
     <groups>
     </groups>
-    <test started-at="2024-09-20T21:16:22 IST" name="Default test" finished-at="2024-09-20T21:16:39 IST" duration-ms="17704">
-      <class name="ddtexamples.Example2">
-        <test-method is-config="true" signature="getData()[pri:0, instance:ddtexamples.Example2@750e2b97]" started-at="2024-09-20T21:16:22 IST" name="getData" finished-at="2024-09-20T21:16:23 IST" duration-ms="1361" status="PASS">
+    <test started-at="2024-09-23T20:59:56 IST" name="Chrome" finished-at="2024-09-23T21:00:05 IST" duration-ms="9701">
+      <class name="basicTestng.AnnotationsExample">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T20:59:56 IST" name="beforeTest" finished-at="2024-09-23T20:59:56 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getData -->
-        <test-method signature="testOrangeHRM()[pri:0, instance:ddtexamples.Example2@750e2b97]" started-at="2024-09-20T21:16:23 IST" name="testOrangeHRM" finished-at="2024-09-20T21:16:39 IST" duration-ms="15735" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="beforeClass" finished-at="2024-09-23T21:00:05 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOrangeHRM -->
-        <test-method is-config="true" signature="updateReport()[pri:0, instance:ddtexamples.Example2@750e2b97]" started-at="2024-09-20T21:16:39 IST" name="updateReport" finished-at="2024-09-20T21:16:39 IST" duration-ms="483" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="beforeMethod" finished-at="2024-09-23T21:00:05 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateReport -->
-      </class> <!-- ddtexamples.Example2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createPIM()[pri:1, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="createPIM" finished-at="2024-09-23T21:00:05 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPIM -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="afterMethod" finished-at="2024-09-23T21:00:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="beforeMethod" finished-at="2024-09-23T21:00:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updatePIM()[pri:2, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="updatePIM" finished-at="2024-09-23T21:00:05 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePIM -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="afterMethod" finished-at="2024-09-23T21:00:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="beforeMethod" finished-at="2024-09-23T21:00:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deletePIM()[pri:3, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="deletePIM" finished-at="2024-09-23T21:00:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePIM -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="afterMethod" finished-at="2024-09-23T21:00:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="afterClass" finished-at="2024-09-23T21:00:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="afterTest" finished-at="2024-09-23T21:00:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- basicTestng.AnnotationsExample -->
+      <class name="day11.advancetestng.ParallelExecutionTest">
+        <test-method signature="testLoginOfVtiger(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day11.advancetestng.ParallelExecutionTest@68c9133c]" started-at="2024-09-23T20:59:56 IST" name="testLoginOfVtiger" finished-at="2024-09-23T21:00:05 IST" duration-ms="9385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginOfVtiger -->
+      </class> <!-- day11.advancetestng.ParallelExecutionTest -->
+    </test> <!-- Chrome -->
+    <test started-at="2024-09-23T20:59:56 IST" name="Firefox" finished-at="2024-09-23T21:00:12 IST" duration-ms="16551">
+      <class name="basicTestng.AnnotationsExample">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T20:59:56 IST" name="beforeTest" finished-at="2024-09-23T20:59:56 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="beforeClass" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="beforeMethod" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createPIM()[pri:1, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="createPIM" finished-at="2024-09-23T21:00:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPIM -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="afterMethod" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="beforeMethod" finished-at="2024-09-23T21:00:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updatePIM()[pri:2, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="updatePIM" finished-at="2024-09-23T21:00:12 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePIM -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="afterMethod" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="beforeMethod" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deletePIM()[pri:3, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="deletePIM" finished-at="2024-09-23T21:00:12 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePIM -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="afterMethod" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="afterClass" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="afterTest" finished-at="2024-09-23T21:00:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- basicTestng.AnnotationsExample -->
+      <class name="day11.advancetestng.ParallelExecutionTest">
+        <test-method signature="testLoginOfVtiger(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day11.advancetestng.ParallelExecutionTest@7b36aa0c]" started-at="2024-09-23T20:59:56 IST" name="testLoginOfVtiger" finished-at="2024-09-23T21:00:12 IST" duration-ms="16349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginOfVtiger -->
+      </class> <!-- day11.advancetestng.ParallelExecutionTest -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Parallel test suite -->
 </testng-results>

@@ -32,7 +32,7 @@ public class Example2 extends SeleniumUtil{
 		typeRequiredInput(driver.findElement(By.name("pwd")), password);
 		clickOnRequiredElement(driver.findElement(By.id("loginButton")));
 		actualResult=getCurrentPageTitle(expectedResult);
-		status=actualResult.equals(actualResult);
+		status=actualResult.equals(expectedResult);
 		Assert.assertEquals(actualResult, expectedResult);
 	}
 	

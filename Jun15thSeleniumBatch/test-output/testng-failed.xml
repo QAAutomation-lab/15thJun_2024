@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="param-val-not-found"/>
+  <parameter name="browser" value="param-val-not-found"/>
+  <parameter name="username" value="param-val-not-found"/>
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ddtexamples.Example1">
+      <class name="day11.advancetestng.Parameterization">
         <methods>
-          <include name="testCellWithDiffValues"/>
+          <include name="testLoginOfVtiger" invocation-numbers="0"/>
         </methods>
-      </class> <!-- ddtexamples.Example1 -->
+      </class> <!-- day11.advancetestng.Parameterization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -110,4 +110,7 @@ public class SeleniumUtil {
 	 * 		method for co-ordinates
 	 * 		method for mouse and keyboard operations
 	 */
+	public WebElement getActiveElementFromUI() {
+		return driver.switchTo().activeElement();
+	}
 }
