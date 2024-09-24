@@ -1,167 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-23T20:59:56 IST" name="Parallel test suite" finished-at="2024-09-23T21:00:12 IST" duration-ms="16551">
+  <suite started-at="2024-09-24T20:52:02 IST" name="Default suite" finished-at="2024-09-24T20:52:04 IST" duration-ms="1151">
     <groups>
     </groups>
-    <test started-at="2024-09-23T20:59:56 IST" name="Chrome" finished-at="2024-09-23T21:00:05 IST" duration-ms="9701">
-      <class name="basicTestng.AnnotationsExample">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T20:59:56 IST" name="beforeTest" finished-at="2024-09-23T20:59:56 IST" duration-ms="24" status="PASS">
+    <test started-at="2024-09-24T20:52:02 IST" name="Default test" finished-at="2024-09-24T20:52:04 IST" duration-ms="1151">
+      <class name="day11.exdentreport.ExtentReportDemo">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:day11.exdentreport.ExtentReportDemo@e350b40]" started-at="2024-09-24T20:52:02 IST" name="startReport" finished-at="2024-09-24T20:52:03 IST" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="beforeClass" finished-at="2024-09-23T21:00:05 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- startReport -->
+        <test-method signature="skipTest()[pri:0, instance:day11.exdentreport.ExtentReportDemo@e350b40]" started-at="2024-09-24T20:52:03 IST" name="skipTest" finished-at="2024-09-24T20:52:03 IST" duration-ms="12" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping - This is not ready for testing ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping - This is not ready for testing 
+at day11.exdentreport.ExtentReportDemo.skipTest(ExtentReportDemo.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="beforeMethod" finished-at="2024-09-23T21:00:05 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="createPIM()[pri:1, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="createPIM" finished-at="2024-09-23T21:00:05 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPIM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="afterMethod" finished-at="2024-09-23T21:00:05 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="beforeMethod" finished-at="2024-09-23T21:00:05 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="updatePIM()[pri:2, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="updatePIM" finished-at="2024-09-23T21:00:05 IST" duration-ms="33" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatePIM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="afterMethod" finished-at="2024-09-23T21:00:05 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="beforeMethod" finished-at="2024-09-23T21:00:05 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="deletePIM()[pri:3, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="deletePIM" finished-at="2024-09-23T21:00:05 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletePIM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="afterMethod" finished-at="2024-09-23T21:00:05 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="afterClass" finished-at="2024-09-23T21:00:05 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:basicTestng.AnnotationsExample@7a35b0f5]" started-at="2024-09-23T21:00:05 IST" name="afterTest" finished-at="2024-09-23T21:00:05 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- basicTestng.AnnotationsExample -->
-      <class name="day11.advancetestng.ParallelExecutionTest">
-        <test-method signature="testLoginOfVtiger(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day11.advancetestng.ParallelExecutionTest@68c9133c]" started-at="2024-09-23T20:59:56 IST" name="testLoginOfVtiger" finished-at="2024-09-23T21:00:05 IST" duration-ms="9385" status="PASS">
+        </test-method> <!-- skipTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:day11.exdentreport.ExtentReportDemo@e350b40]" started-at="2024-09-24T20:52:03 IST" name="getResult" finished-at="2024-09-24T20:52:03 IST" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Test@123]]>
+                <![CDATA[[TestResult name=skipTest status=SKIP method=ExtentReportDemo.skipTest()[pri:0, instance:day11.exdentreport.ExtentReportDemo@e350b40] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginOfVtiger -->
-      </class> <!-- day11.advancetestng.ParallelExecutionTest -->
-    </test> <!-- Chrome -->
-    <test started-at="2024-09-23T20:59:56 IST" name="Firefox" finished-at="2024-09-23T21:00:12 IST" duration-ms="16551">
-      <class name="basicTestng.AnnotationsExample">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T20:59:56 IST" name="beforeTest" finished-at="2024-09-23T20:59:56 IST" duration-ms="27" status="PASS">
+        </test-method> <!-- getResult -->
+        <test-method signature="testCase1()[pri:0, instance:day11.exdentreport.ExtentReportDemo@e350b40]" started-at="2024-09-24T20:52:03 IST" name="testCase1" finished-at="2024-09-24T20:52:03 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="beforeClass" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="beforeMethod" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="createPIM()[pri:1, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="createPIM" finished-at="2024-09-23T21:00:12 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPIM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="afterMethod" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="beforeMethod" finished-at="2024-09-23T21:00:12 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="updatePIM()[pri:2, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="updatePIM" finished-at="2024-09-23T21:00:12 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatePIM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="afterMethod" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="beforeMethod" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="deletePIM()[pri:3, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="deletePIM" finished-at="2024-09-23T21:00:12 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletePIM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="afterMethod" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="afterClass" finished-at="2024-09-23T21:00:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:basicTestng.AnnotationsExample@470734c3]" started-at="2024-09-23T21:00:12 IST" name="afterTest" finished-at="2024-09-23T21:00:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- basicTestng.AnnotationsExample -->
-      <class name="day11.advancetestng.ParallelExecutionTest">
-        <test-method signature="testLoginOfVtiger(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day11.advancetestng.ParallelExecutionTest@7b36aa0c]" started-at="2024-09-23T20:59:56 IST" name="testLoginOfVtiger" finished-at="2024-09-23T21:00:12 IST" duration-ms="16349" status="PASS">
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:day11.exdentreport.ExtentReportDemo@e350b40]" started-at="2024-09-24T20:52:03 IST" name="getResult" finished-at="2024-09-24T20:52:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Test@123]]>
+                <![CDATA[[TestResult name=testCase1 status=SUCCESS method=ExtentReportDemo.testCase1()[pri:0, instance:day11.exdentreport.ExtentReportDemo@e350b40] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginOfVtiger -->
-      </class> <!-- day11.advancetestng.ParallelExecutionTest -->
-    </test> <!-- Firefox -->
-  </suite> <!-- Parallel test suite -->
+        </test-method> <!-- getResult -->
+        <test-method signature="testCase2()[pri:0, instance:day11.exdentreport.ExtentReportDemo@e350b40]" started-at="2024-09-24T20:52:03 IST" name="testCase2" finished-at="2024-09-24T20:52:03 IST" duration-ms="25" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at day11.exdentreport.ExtentReportDemo.testCase2(ExtentReportDemo.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:day11.exdentreport.ExtentReportDemo@e350b40]" started-at="2024-09-24T20:52:03 IST" name="getResult" finished-at="2024-09-24T20:52:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase2 status=FAILURE method=ExtentReportDemo.testCase2()[pri:0, instance:day11.exdentreport.ExtentReportDemo@e350b40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:day11.exdentreport.ExtentReportDemo@e350b40]" started-at="2024-09-24T20:52:03 IST" name="endReport" finished-at="2024-09-24T20:52:04 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- day11.exdentreport.ExtentReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
