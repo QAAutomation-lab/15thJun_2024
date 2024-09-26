@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T20:48:31 IST" name="Default suite" finished-at="2024-09-26T20:48:45 IST" duration-ms="13625">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T20:48:31 IST" name="Default test" finished-at="2024-09-26T20:48:45 IST" duration-ms="13625">
+      <class name="ornageHRMTestScripts.LoginLogoutText">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:ornageHRMTestScripts.LoginLogoutText@235ecd9f]" started-at="2024-09-26T20:48:31 IST" name="precondition" finished-at="2024-09-26T20:48:40 IST" duration-ms="8402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testLoginFlow()[pri:0, instance:ornageHRMTestScripts.LoginLogoutText@235ecd9f]" started-at="2024-09-26T20:48:40 IST" name="testLoginFlow" finished-at="2024-09-26T20:48:42 IST" duration-ms="2293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFlow -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:ornageHRMTestScripts.LoginLogoutText@235ecd9f]" started-at="2024-09-26T20:48:42 IST" name="postCondition" finished-at="2024-09-26T20:48:45 IST" duration-ms="2855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- ornageHRMTestScripts.LoginLogoutText -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
