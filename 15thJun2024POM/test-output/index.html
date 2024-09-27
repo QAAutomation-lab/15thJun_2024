@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Asus\AppData\Local\Temp\testng-eclipse-560878790\testng-customsuite.xml</span>
+                    <span>C:\Users\Asus\AppData\Local\Temp\testng-eclipse-1935788304\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="ornageHRMTestScripts.LoginLogoutText" class="method navigator-link" hash-for-method="testLoginFlow">testLoginFlow</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="googleTestScripts.TestGoogleSearchFlow" class="method navigator-link" hash-for-method="testGoogleSuggestionCount">testGoogleSuggestionCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="googleTestScripts.TestGoogleSearchFlow" class="method navigator-link" hash-for-method="testSuggestionSelection">testSuggestionSelection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,14 +126,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">ornageHRMTestScripts.LoginLogoutText</span>
+              <span class="class-name">googleTestScripts.TestGoogleSearchFlow</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginFlow">
-                  </a> <!-- testLoginFlow -->
-                  <span class="method-name">testLoginFlow</span>
+                  <a name="testGoogleSuggestionCount">
+                  </a> <!-- testGoogleSuggestionCount -->
+                  <span class="method-name">testGoogleSuggestionCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuggestionSelection">
+                  </a> <!-- testSuggestionSelection -->
+                  <span class="method-name">testSuggestionSelection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +148,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Asus\AppData\Local\Temp\testng-eclipse-560878790\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Asus\AppData\Local\Temp\testng-eclipse-1935788304\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +157,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ornageHRMTestScripts.LoginLogoutText&quot;/&gt;
+      &lt;class name=&quot;googleTestScripts.TestGoogleSearchFlow&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -185,11 +197,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testLoginFlow')
-data.setCell(0, 2, 'ornageHRMTestScripts.LoginLogoutText')
-data.setCell(0, 3, 2293);
+data.setCell(0, 1, 'testSuggestionSelection')
+data.setCell(0, 2, 'googleTestScripts.TestGoogleSearchFlow')
+data.setCell(0, 3, 1632);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGoogleSuggestionCount')
+data.setCell(1, 2, 'googleTestScripts.TestGoogleSearchFlow')
+data.setCell(1, 3, 521);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -220,18 +236,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">ornageHRMTestScripts.LoginLogoutText</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">googleTestScripts.TestGoogleSearchFlow</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">precondition</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">testLoginFlow</span>
-                <span class="method-start">8443 ms</span>
+                <span class="method-name">testGoogleSuggestionCount</span>
+                <span class="method-start">7929 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuggestionSelection</span>
+                <span class="method-start">8467 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
-                <span class="method-name">postCondition</span>
-                <span class="method-start">10745 ms</span>
+                <span class="method-name">postConditions</span>
+                <span class="method-start">10105 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

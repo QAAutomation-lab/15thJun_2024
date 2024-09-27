@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-26T20:48:31 IST" name="Default suite" finished-at="2024-09-26T20:48:45 IST" duration-ms="13625">
+  <suite started-at="2024-09-27T20:42:35 IST" name="Default suite" finished-at="2024-09-27T20:42:45 IST" duration-ms="10571">
     <groups>
     </groups>
-    <test started-at="2024-09-26T20:48:31 IST" name="Default test" finished-at="2024-09-26T20:48:45 IST" duration-ms="13625">
-      <class name="ornageHRMTestScripts.LoginLogoutText">
-        <test-method is-config="true" signature="precondition()[pri:0, instance:ornageHRMTestScripts.LoginLogoutText@235ecd9f]" started-at="2024-09-26T20:48:31 IST" name="precondition" finished-at="2024-09-26T20:48:40 IST" duration-ms="8402" status="PASS">
+    <test started-at="2024-09-27T20:42:35 IST" name="Default test" finished-at="2024-09-27T20:42:45 IST" duration-ms="10571">
+      <class name="googleTestScripts.TestGoogleSearchFlow">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:googleTestScripts.TestGoogleSearchFlow@1ca3b418]" started-at="2024-09-27T20:42:35 IST" name="precondition" finished-at="2024-09-27T20:42:43 IST" duration-ms="7889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="testLoginFlow()[pri:0, instance:ornageHRMTestScripts.LoginLogoutText@235ecd9f]" started-at="2024-09-26T20:48:40 IST" name="testLoginFlow" finished-at="2024-09-26T20:48:42 IST" duration-ms="2293" status="PASS">
+        <test-method signature="testGoogleSuggestionCount()[pri:0, instance:googleTestScripts.TestGoogleSearchFlow@1ca3b418]" started-at="2024-09-27T20:42:43 IST" name="testGoogleSuggestionCount" finished-at="2024-09-27T20:42:43 IST" duration-ms="521" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginFlow -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:ornageHRMTestScripts.LoginLogoutText@235ecd9f]" started-at="2024-09-26T20:48:42 IST" name="postCondition" finished-at="2024-09-26T20:48:45 IST" duration-ms="2855" status="PASS">
+        </test-method> <!-- testGoogleSuggestionCount -->
+        <test-method signature="testSuggestionSelection()[pri:0, instance:googleTestScripts.TestGoogleSearchFlow@1ca3b418]" started-at="2024-09-27T20:42:43 IST" name="testSuggestionSelection" finished-at="2024-09-27T20:42:45 IST" duration-ms="1632" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- ornageHRMTestScripts.LoginLogoutText -->
+        </test-method> <!-- testSuggestionSelection -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:googleTestScripts.TestGoogleSearchFlow@1ca3b418]" started-at="2024-09-27T20:42:45 IST" name="postConditions" finished-at="2024-09-27T20:42:45 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- googleTestScripts.TestGoogleSearchFlow -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
