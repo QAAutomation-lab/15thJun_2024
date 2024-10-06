@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="29.48">
+    <testcase classname="Actitime Login validation" name="Validate Actitime Login with invalid user" time="10.121">
+        <system-out><![CDATA[Given User is on actitime login page........................................passed
+When User enters username as "admin"........................................passed
+And User enters password as "admin01".......................................passed
+And User clicks on login button.............................................passed
+Then User should navigate to Actitime Home page with title "actiTIME - Login".passed
+And User close the browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Google search flow" name="Validate search result for Selenium" time="5.875">
+        <system-out><![CDATA[Given user is on Google search page.........................................passed
+When user enters Selenium and press enter button............................passed
+Then Validate search page is having title as Selenium - Google Search.......passed
+And User close the browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Google search flow" name="Validate search result for Manual Testing" time="6.362">
+        <system-out><![CDATA[Given user is on Google search page.........................................passed
+When user enters Manual Testing and press enter button......................passed
+Then Validate search page is having title as Manual Testing - Google Search.passed
+And User close the browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Google search flow" name="Validate search result for API Testing" time="6.081">
+        <system-out><![CDATA[Given user is on Google search page.........................................passed
+When user enters API Testing and press enter button.........................passed
+Then Validate search page is having title as API Testing - Google Search....passed
+And User close the browser..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

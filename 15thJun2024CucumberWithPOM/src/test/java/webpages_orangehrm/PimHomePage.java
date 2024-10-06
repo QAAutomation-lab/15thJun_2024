@@ -47,6 +47,9 @@ public class PimHomePage extends SeleniumUtility {
 	public void searchCreatedEmployee(int employeeId) {
 		typeInput(employeeIdInputField, String.valueOf(employeeId));
 		setSleepTime(2000);
+	}
+	
+	public void clickOnSearchButton() {
 		clickOnElement(searchButtonOnPimPage);
 		setSleepTime(2000);
 	}

@@ -6,7 +6,7 @@ Feature: Testing Google search flow
   #Then Validate search page is having title as "Selenium - Google Search"
   #And User close the browser
   
-  
+  @Smoke
   Scenario Outline: Validate search result for <textTobeSearched>
     Given user is on Google search page
     When user enters <textTobeSearched> and press enter button

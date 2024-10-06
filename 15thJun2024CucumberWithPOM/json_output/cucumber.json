@@ -1,0 +1,358 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-10-06T08:59:23.827Z",
+        "line": 12,
+        "name": "Validate Actitime Login with invalid user",
+        "description": "",
+        "id": "actitime-login-validation;validate-actitime-login-with-invalid-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5312044500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on actitime login page",
+            "match": {
+              "location": "step_def.ActitimeLoginTest.user_is_on_actitime_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3857348200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters username as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_def.ActitimeLoginTest.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 288158700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters password as \"admin01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin01\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_def.ActitimeLoginTest.user_enters_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170544400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "step_def.ActitimeLoginTest.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32911700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should navigate to Actitime Home page with title \"actiTIME - Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"actiTIME - Login\"",
+                  "offset": 54
+                }
+              ],
+              "location": "step_def.ActitimeLoginTest.user_should_navigate_to_actitime_home_page_with_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 357091300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User close the browser",
+            "match": {
+              "location": "step_def.ActitimeLoginTest.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Actitime Login validation",
+    "description": "",
+    "id": "actitime-login-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ActitimeLogin.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-10-06T08:59:34.009Z",
+        "line": 18,
+        "name": "Validate search result for Selenium",
+        "description": "",
+        "id": "testing-google-search-flow;validate-search-result-for-\u003ctexttobesearched\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3246178200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on Google search page",
+            "match": {
+              "location": "step_def.GoogleSearch.user_is_on_Google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 554129400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters Selenium and press enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 12
+                }
+              ],
+              "location": "step_def.GoogleSearch.user_enters_and_press_enter_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1416987100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate search page is having title as Selenium - Google Search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium - Google Search",
+                  "offset": 40
+                }
+              ],
+              "location": "step_def.GoogleSearch.validate_search_page_is_having_title_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 635399300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User close the browser",
+            "match": {
+              "location": "step_def.ActitimeLoginTest.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-06T08:59:39.967Z",
+        "line": 19,
+        "name": "Validate search result for Manual Testing",
+        "description": "",
+        "id": "testing-google-search-flow;validate-search-result-for-\u003ctexttobesearched\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3405490300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on Google search page",
+            "match": {
+              "location": "step_def.GoogleSearch.user_is_on_Google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 490958400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters Manual Testing and press enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manual Testing",
+                  "offset": 12
+                }
+              ],
+              "location": "step_def.GoogleSearch.user_enters_and_press_enter_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2259016100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate search page is having title as Manual Testing - Google Search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manual Testing - Google Search",
+                  "offset": 40
+                }
+              ],
+              "location": "step_def.GoogleSearch.validate_search_page_is_having_title_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 199321000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User close the browser",
+            "match": {
+              "location": "step_def.ActitimeLoginTest.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-06T08:59:46.412Z",
+        "line": 20,
+        "name": "Validate search result for API Testing",
+        "description": "",
+        "id": "testing-google-search-flow;validate-search-result-for-\u003ctexttobesearched\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2849017700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on Google search page",
+            "match": {
+              "location": "step_def.GoogleSearch.user_is_on_Google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 529684700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters API Testing and press enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "API Testing",
+                  "offset": 12
+                }
+              ],
+              "location": "step_def.GoogleSearch.user_enters_and_press_enter_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2556258500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate search page is having title as API Testing - Google Search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "API Testing - Google Search",
+                  "offset": 40
+                }
+              ],
+              "location": "step_def.GoogleSearch.validate_search_page_is_having_title_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 140617800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User close the browser",
+            "match": {
+              "location": "step_def.ActitimeLoginTest.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Testing Google search flow",
+    "description": "",
+    "id": "testing-google-search-flow",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/GoogleSearch.feature",
+    "tags": []
+  }
+]

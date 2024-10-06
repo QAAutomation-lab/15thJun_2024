@@ -26,7 +26,7 @@ public class AddEmployeePage extends SeleniumUtility {
 	@FindBy(xpath="//div[div[label[text()='Employee Id']]]/div[2]/input")
 	private WebElement epmloyeeIdInputField;
 	//Save button
-	@FindBy(xpath="//button[@type='submit']")
+	@FindBy(css="button[type='submit']")
 	private WebElement saveButtonOnAddEmployeePage;
 	//Function: addEmployee
 	public void createEmployee(String firstName,String lastName,int empId) {
@@ -37,6 +37,9 @@ public class AddEmployeePage extends SeleniumUtility {
 		waitForElementDisplayed(epmloyeeIdInputField);
 		typeInput(epmloyeeIdInputField, String.valueOf(empId));
 		setSleepTime(2000);
+	}
+	
+	public void clickOnSaveButton() {
 		clickOnElement(saveButtonOnAddEmployeePage);
 		setSleepTime(2000);
 	}
